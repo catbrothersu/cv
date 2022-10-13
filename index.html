@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- head跟body都是在html之下的階層，必須縮排一格 -->
+  <head> <!-- head為告訴瀏覽器如何處理網頁，包含寫入標題 -->
+    <meta charset="utf-8"> <!-- 網頁內的所有文字皆使用UTF-8編碼系統 -->
+    <!-- 若編碼系統用錯，會導致亂碼 -->
+    <title>Gibson's Personal Site</title>
+  </head>
+  <body>
+    <table cellspacing="20"> <!-- cellspacing設定表格內距離邊界的間距 -->
+      <tr>
+        <td><img src="gibson.jpg" alt="Gibson profile picture"></td>
+        <!-- 可以貼上圖片連結網址，或是將圖片下載至同一資料夾下叫出 -->
+        <td><h1> Gibson Su </h1> <!--是在body之下，需縮排一格 -->
+        <p><em> CEO of <strong>The Canstop and Gibson's home</strong>. </em></p>
+        <!-- <em>為加強文字的編碼，會將文字加黑 -->
+        <!-- <p>是分段用的編碼，可直接輸入p，並按下enter，則會自動跳出<p></p> -->
+        <p>I am a housekeeper and financial specialist. I love coffee. </p></td>
+      </tr>
+    </table>
+    <hr>
+    <h3> Education </h3>
+    <ul> <!-- <ul>功能為建立項目符號清單(unordered list) -->
+      <li>2004/09 – 2006/06	National Taiwan University of Taiwan
+    – Master degree of Chemistry</li>
+      <li>2000/09 – 2004/06	National Center University of Taiwan
+      – Bachelor of Chemistry</li>
+    </ul>
+    <hr>
+    <h3>Work Experience</h3>
+      <table cellspacing="10"> <!--可以將文字做成表格，排列較整齊 -->
+      <!-- 若在table後面加上border="1"，如<table border="1">，則會加上格線 -->
+        <thead>
+          <tr>
+            <th>Dates</th>
+            <th>Work</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>July, 2009 to 2020</td>
+            <td>Projector at Universal World-wide Business Inc.</td>
+          </tr>
+          <tr>
+            <td>October, 2007 ~ July, 2009</td>
+            <td>Sr. Engineer at Innolux Display Corp.</td>
+          </tr>
+        </tbody>
+      </table>
+    <h3>Skills</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>CFA</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Web Development</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+    </table>
+
+    <hr>
+    <a href="hobbies.html">My Hobbies</a>
+    <a href="contact-me.html">Contact Me</a>
+  </body>
+</html>
